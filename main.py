@@ -4,7 +4,7 @@ import pandas as pd
 import requests
 
 st.markdown("""<link rel="icon" type="image/x-icon" href="dp.png">
-<title>Ds. Navdeesh</title>""")
+<title>Ds. Navdeesh</title>""", unsafe_allow_html=True)
 
 with open("style.css") as f:
   st.markdown('<style>{}</style>'.format(f.read()), unsafe_allow_html=True)
