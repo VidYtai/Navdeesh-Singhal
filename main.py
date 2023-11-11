@@ -20,7 +20,7 @@ st.write('''
 
 st.markdown("""
 <div class="container">
-    <img src="dp.png" alt="Centered Image" class="centered-image">
+    <img src="https://raw.githubusercontent.com/VidYtai/Navdeesh-Singhal/main/dp.png" alt="Centered Image" class="centered-image">
 </div>
 <style>
 .container {
