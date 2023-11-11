@@ -19,20 +19,9 @@ st.write('''
 ''')
 
 st.markdown("""
-<div class="container">
-    <img src="https://raw.githubusercontent.com/VidYtai/Navdeesh-Singhal/main/dp.png" alt="Centered Image" class="centered-image">
+<div class="text-center">
+    <img src="https://raw.githubusercontent.com/VidYtai/Navdeesh-Singhal/main/dp.png" alt="Centered Image">
 </div>
-<style>
-.container {
-    text-align: center;
-}
-
-.centered-image {
-    margin: auto;
-    display: block;
-    width: 50;
-}
-</style>
 """, unsafe_allow_html=True)
 
 st.markdown('## Summary', unsafe_allow_html=True)
