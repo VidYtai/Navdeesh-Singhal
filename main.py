@@ -1,6 +1,7 @@
 import streamlit as st
 from PIL import Image
 import pandas as pd
+import requests
 
 st.set_page_config(
     page_title="Ds. Navdeesh",
