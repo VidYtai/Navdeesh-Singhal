@@ -209,6 +209,7 @@ if submitted:
     response = requests.post(api_url, data=payload, headers=headers)
 
     if response.status_code == 200:
-            st.success("Form sent successfully.")
+        st.success("Form sent successfully.")
     else:
-            st.error(f"Failed to send data. Status code: {response.status_code}")
+        st.error(f"Failed to send data. Status code: {response.status_code}")
+        st.error(f"Error message from server: {response.json().get('error')}")
