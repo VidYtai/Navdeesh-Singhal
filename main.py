@@ -3,8 +3,10 @@ from PIL import Image
 import pandas as pd
 import requests
 
-st.markdown("""<link rel="icon" type="image/x-icon" href="dp.png">
-<title>Ds. Navdeesh</title>""", unsafe_allow_html=True)
+st.set_page_config(
+    page_title="Ds. Navdeesh",
+    page_icon="dp.png"  # You can replace this with the path to your favicon file
+)
 
 with open("style.css") as f:
   st.markdown('<style>{}</style>'.format(f.read()), unsafe_allow_html=True)
