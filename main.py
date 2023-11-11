@@ -211,4 +211,4 @@ if submitted:
     if response.status_code == 200:
             st.success("Form sent successfully.")
     else:
-        st.error("Failed to send form.")
+            st.error(f"Failed to send data. Status code: {response.status_code}")
