@@ -18,8 +18,22 @@ st.write('''
 ##### *Resume* 
 ''')
 
-image = Image.open('dp.png')
-st.image(image, width=150)
+st.markdown("""
+<div class="container">
+    <img src="dp.png" alt="Centered Image" class="centered-image">
+</div>
+<style>
+.container {
+    text-align: center;
+}
+
+.centered-image {
+    margin: auto;
+    display: block;
+    width: 150;
+}
+</style>
+""", unsafe_allow_html=True)
 
 st.markdown('## Summary', unsafe_allow_html=True)
 st.info('''
