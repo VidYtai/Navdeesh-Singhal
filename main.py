@@ -20,7 +20,7 @@ st.write('''
 
 st.markdown("""
 <div class="text-center">
-    <img src="https://raw.githubusercontent.com/VidYtai/Navdeesh-Singhal/main/dp.png" alt="Centered Image">
+    <img src="https://raw.githubusercontent.com/VidYtai/Navdeesh-Singhal/main/dp.png" class="img-fluid" alt="Centered Image">
 </div>
 """, unsafe_allow_html=True)
 
