@@ -196,11 +196,18 @@ message = st.text_area("Message")
 submitted = st.button("Submit")
 
 if submitted:
-  # Create a DataFrame with the form data
-  data = {"Name": [name], "Email": [email], "Message": [message]}
-  df = pd.DataFrame(data)
+    # Create a DataFrame with the form data
+    data = {"Name": [name], "Email": [email], "Message": [message]}
+    df = pd.DataFrame(data)
 
-  # Save the data to a Markdown file
-  markdown_file = "contact.md"
-  save_to_markdown(df, markdown_file)
-  st.success("Form sent successfully")
+    # Send POST request to a server
+    api_url = "https://contact-1.navdeeshsingha2.repl.co/api/contact"
+    headers = {"Content-Type": "application/json"}
+    payload = df.to_json(orient="records")
+
+    response = requests.post(api_url, data=payload, headers=headers)
+
+    if response.status_code == 200:
+            st.success("Form sent successfully.")
+    else:
+        st.error("Failed to send form.")
