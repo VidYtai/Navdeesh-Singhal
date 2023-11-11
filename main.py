@@ -198,8 +198,9 @@ submitted = st.button("Submit")
 
 if submitted:
     # Create a DataFrame with the form data
-    data = {"Name": [name], "Email": [email], "Message": [message]}
-    df = pd.DataFrame(data)
+    data = {"Name": name, "Email": email, "Message": message}
+    df = pd.DataFrame([data])  # Convert a single dictionary to a DataFrame with a list
+
 
     # Send POST request to a server
     api_url = "https://contact-1.navdeeshsingha2.repl.co/api/contact"
