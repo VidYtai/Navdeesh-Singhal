@@ -30,7 +30,7 @@ st.markdown("""
 .centered-image {
     margin: auto;
     display: block;
-    width: 150;
+    width: 50;
 }
 </style>
 """, unsafe_allow_html=True)
