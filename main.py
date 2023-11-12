@@ -9,30 +9,16 @@ st.set_page_config(
 )
 
 st.markdown(
-    '''<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">''',
+    '''<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">''',
     unsafe_allow_html=True)
 
 st.markdown("""
-<script>
-function myFunction() {
-  var x = document.getElementById("myTopnav");
-  if (x.className === "topnav") {
-    x.className += " responsive";
-  } else {
-    x.className = "topnav";
-  }
-}
-</script>
 <nav>
-<div class="topnav" id="myTopnav">
-  <a href="#navdeesh-data-scientist" class="active">Home</a>
+<div class="navbar">
+  <a href="#navdeesh-data-scientist">Home</a>
   <a href="#education">Education</a>
   <a href="#work-experience">Work Experience</a>
   <a href="#skills">Skills</a>
-  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-    <i class="fa fa-bars"></i>
-  </a>
 </div>
 </nav>
 """,
