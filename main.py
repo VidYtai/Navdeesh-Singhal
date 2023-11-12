@@ -3,37 +3,6 @@ from PIL import Image
 import pandas as pd
 import requests
 
-st.set_page_config(
-    page_title="Ds. Navdeesh",
-    page_icon="dp.png"  # You can replace this with the path to your favicon file
-)
-
-with open("style.css") as f:
-  st.markdown('<style>{}</style>'.format(f.read()), unsafe_allow_html=True)
-
-#####################
-# Header
-st.write('''
-# Navdeesh, Data Scientist
-##### *Resume* 
-''')
-
-st.markdown("""
-<div class="text-center">
-    <img src="https://raw.githubusercontent.com/VidYtai/Navdeesh-Singhal/main/dp.png" class="img-fluid" alt="Centered Image">
-</div>
-""", unsafe_allow_html=True)
-
-st.markdown('## Summary', unsafe_allow_html=True)
-st.info('''
-- Committed to ongoing professional development, regularly participating in workshops, conferences, and online courses to stay updated with the latest advancements in the field.
-- Driven by a strong ambition to leverage advanced data analytics techniques in a dynamic environment, aiming to contribute to Google's cutting-edge projects.
-- Possess extensive expertise in coding and development, with a keen understanding of various programming languages and development tools, proficiency in designing, implementing, and optimizing software solutions to address complex challenges.
-''')
-
-#####################
-# Navigation
-
 st.markdown(
     '''<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">''',
@@ -118,6 +87,33 @@ function myFunction() {
 """,
             unsafe_allow_html=True)
 
+st.set_page_config(
+    page_title="Ds. Navdeesh",
+    page_icon="dp.png"  # You can replace this with the path to your favicon file
+)
+
+with open("style.css") as f:
+  st.markdown('<style>{}</style>'.format(f.read()), unsafe_allow_html=True)
+
+#####################
+# Header
+st.write('''
+# Navdeesh, Data Scientist
+##### *Resume* 
+''')
+
+st.markdown("""
+<div class="text-center">
+    <img src="https://raw.githubusercontent.com/VidYtai/Navdeesh-Singhal/main/dp.png" class="img-fluid" alt="Centered Image">
+</div>
+""", unsafe_allow_html=True)
+
+st.markdown('## Summary', unsafe_allow_html=True)
+st.info('''
+- Committed to ongoing professional development, regularly participating in workshops, conferences, and online courses to stay updated with the latest advancements in the field.
+- Driven by a strong ambition to leverage advanced data analytics techniques in a dynamic environment, aiming to contribute to Google's cutting-edge projects.
+- Possess extensive expertise in coding and development, with a keen understanding of various programming languages and development tools, proficiency in designing, implementing, and optimizing software solutions to address complex challenges.
+''')
 
 #####################
 # Custom function for printing text
