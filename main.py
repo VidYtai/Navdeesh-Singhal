@@ -153,9 +153,10 @@ st.markdown('''
 st.markdown('''
 ## Projects
 ''')
-st.write("###**Molecular Solubility Prediction Web App**")
-st.markdown("""<iframe src='https://molecular-solubility-prediction-web-app.onrender.com/' class='responsive-iframe'></iframe>""", unsafe_allow_html=True)
+st.write("### **[Molecular Solubility Prediction Web App](https://molecular-solubility-prediction-web-app.onrender.com/)**")
 st.write("""
+[Explore the Molecular Solubility Prediction Web App here](https://molecular-solubility-prediction-web-app.onrender.com/)
+
 ### Project Overview
 
 The Molecular Solubility Prediction Web App is a data-driven application designed to predict the solubility values (LogS) of molecules. This web-based tool leverages molecular descriptors calculated from chemical structures to provide insightful predictions, making it a valuable resource for researchers and professionals in the field.
