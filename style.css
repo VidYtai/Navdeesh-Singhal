@@ -1,7 +1,7 @@
 body {
     margin:0;
 }
-.navbar {
+.customnavv {
   overflow: hidden;
   background-color: #333;
   position: fixed;
@@ -9,7 +9,7 @@ body {
   width: 100%;
 }
 
-.navbar a {
+.customnavv a {
   float: left;
   display: block;
   color: #f2f2f2;
@@ -19,16 +19,11 @@ body {
   font-size: 17px;
 }
 
-.navbar a:hover {
+.customnavv a:hover {
   background: #ddd;
   color: black;
 }
 
-.main {
-  padding: 16px;
-  margin-top: 30px;
-  height: 1500px; /* Used in this example to enable scrolling */
-}
 ul {
     padding-left: 1.5rem;
   }
