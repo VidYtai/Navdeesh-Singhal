@@ -3,6 +3,7 @@ html {
 }
 body {
     margin:0;
+    scroll-behavior: smooth;
 }
 .customnavv {
   overflow: hidden;
@@ -13,6 +14,7 @@ body {
   right: 0;
   width: 100%;
   z-index: 1000;
+  scroll-behavior: smooth;
 }
 
 .customnavv a {
@@ -23,46 +25,45 @@ body {
   padding: 14px 16px;
   text-decoration: none;
   font-size: 17px;
+  scroll-behavior: smooth;
 }
 
 .customnavv a:hover {
   background: #ddd;
   color: black;
+  scroll-behavior: smooth;
 }
 
 ul {
     padding-left: 1.5rem;
+    scroll-behavior: smooth;
   }
 
 h1 {
     text-align:center;
+    scroll-behavior: smooth;
 }
 
 h5 {
     text-align:center;
+    scroll-behavior: smooth;
 }
 
 img {
     display: block;
     margin: auto;
+    scroll-behavior: smooth;
 }
 
 #MainMenu {
     visibility: hidden;
+    scroll-behavior: smooth;
 }
 footer {
     visibility: hidden;
+    scroll-behavior: smooth;
 }
 header {
     visibility: hidden;
-}
-.responsive-iframe {
-  position: absolute;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  right: 0;
-  width: 100%;
-  height: 100%;
-  border: none;
+    scroll-behavior: smooth;
 }
