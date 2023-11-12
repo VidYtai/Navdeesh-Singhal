@@ -38,12 +38,6 @@ st.markdown(
     '''<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
 <style>
-body {
-  margin: 0;
-  font-family: Arial, Helvetica, sans-serif;
-  background-color: #f0f0f0; /* Background color for the body */
-}
-
 .topnav {
   overflow: hidden;
   background-color: rgb(22, 162, 203); /* Blue theme color similar to the navbar */
@@ -103,7 +97,7 @@ body {
     unsafe_allow_html=True)
 
 st.markdown("""
-<div class="topnav bg-info" id="myTopnav">
+<div class="topnav" id="myTopnav">
   <a href="#navdeesh-data-scientist" class="active">Home</a>
   <a href="#education">Education</a>
   <a href="#work-experience">Work Experience</a>
