@@ -195,7 +195,7 @@ Future enhancements may include expanding the model's training data, incorporati
 
 The Molecular Solubility Prediction Web App combines scientific rigor with user-friendly design, contributing to the advancement of research in molecular solubility prediction. This project showcases your skills in data science, machine learning, and web development, making it a valuable addition to your portfolio.
 """)
-st.markdown("<iframe src='https://molecular-solubility-prediction-web-app.onrender.com/' class="responsive-iframe"></iframe>", unsafe_allow_html=True)
+st.markdown("<iframe src='https://molecular-solubility-prediction-web-app.onrender.com/' class='responsive-iframe'></iframe>", unsafe_allow_html=True)
 
 #####################
 st.markdown('''
