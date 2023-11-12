@@ -157,12 +157,10 @@ st.write("### **Molecular Solubility Prediction Web App**")
 st.write("""
 [Explore the Molecular Solubility Prediction Web App here](https://molecular-solubility-prediction-web-app.onrender.com/)
 
-### Project Overview
-
+#### Project Overview:
 The Molecular Solubility Prediction Web App is a data-driven application designed to predict the solubility values (LogS) of molecules. This web-based tool leverages molecular descriptors calculated from chemical structures to provide insightful predictions, making it a valuable resource for researchers and professionals in the field.
 
 #### Features:
-
 1. **Molecular Descriptors Calculation:**
    - The app utilizes the RDKit library to calculate essential molecular descriptors, including Molecular LogP, Molecular Weight, Number of Rotatable Bonds, and Aromatic Proportion.
 
@@ -179,22 +177,18 @@ The Molecular Solubility Prediction Web App is a data-driven application designe
    - Users can easily customize input molecules, allowing for flexibility in exploring the solubility predictions for different chemical structures.
 
 #### Data Source:
-
 The molecular solubility prediction model is trained on data from the research article "ESOL: Estimating Aqueous Solubility Directly from Molecular Structure" by John S. Delaney, published in the Journal of Chemical Information and Computer Sciences in 2004.
 
 [Link to the Article](https://pubs.acs.org/doi/10.1021/ci034243x)
 
 #### Technologies Used:
-
 - **Python:** The backend of the application is developed using Python.
 - **Streamlit:** The user interface is created using the Streamlit library, making it easy to deploy and share.
 
 #### Future Enhancements:
-
 Future enhancements may include expanding the model's training data, incorporating more advanced machine learning techniques, and improving the user interface for a seamless experience.
 
 #### Conclusion:
-
 The Molecular Solubility Prediction Web App combines scientific rigor with user-friendly design, contributing to the advancement of research in molecular solubility prediction. This project showcases your skills in data science, machine learning, and web development, making it a valuable addition to your portfolio.
 """)
 
@@ -204,40 +198,74 @@ st.write("""
 
 This app counts the nucleotide composition of query DNA!
 
-### Overview:
+#### Overview:
 The "DNA Nucleotide Count Web App" is a user-friendly tool designed to analyze the nucleotide composition of a given DNA sequence. The app provides a comprehensive breakdown of the count of each nucleotide (Adenine, Thymine, Guanine, and Cytosine) and visualizes the results using a bar chart. This project is implemented using the Streamlit library for the web interface, Altair for data visualization, and Pandas for data manipulation.
 
-### Features and Functionality:
+#### Features and Functionality:
 
-#### 1. Input DNA Sequence:
-The app allows users to input a DNA sequence using a text area. The user can either use the default DNA sequence provided or replace it with their own. The input is then processed to extract the sequence for analysis.
+1. **Input DNA Sequence:**
+    - The app allows users to input a DNA sequence using a text area. The user can either use the default DNA sequence provided or replace it with their own. The input is then processed to extract the sequence for analysis.
 
-#### 2. Nucleotide Count:
-The core functionality of the app is to count the occurrences of each nucleotide in the given DNA sequence. The counts are stored in a dictionary and displayed in both tabular and text formats. This information gives users a quick overview of the nucleotide distribution in the input DNA sequence.
+2. **Nucleotide Count:**
+    - The core functionality of the app is to count the occurrences of each nucleotide in the given DNA sequence. The counts are stored in a dictionary and displayed in both tabular and text formats. This information gives users a quick overview of the nucleotide distribution in the input DNA sequence.
 
-#### 3. Display DataFrame:
-The app converts the nucleotide count dictionary into a Pandas DataFrame for a structured presentation. This DataFrame includes two columns: 'nucleotide' and 'count'. Users can easily interpret the nucleotide composition through this tabular format.
+3. **Display DataFrame:**
+    - The app converts the nucleotide count dictionary into a Pandas DataFrame for a structured presentation. This DataFrame includes two columns: 'nucleotide' and 'count'. Users can easily interpret the nucleotide composition through this tabular format.
 
-#### 4. Visual Representation with Bar Chart:
-To enhance data visualization, the app generates a bar chart using the Altair library. The chart visually represents the count of each nucleotide, providing a clear and intuitive way to understand the composition of the DNA sequence.
+4. **Visual Representation with Bar Chart:**
+    - To enhance data visualization, the app generates a bar chart using the Altair library. The chart visually represents the count of each nucleotide, providing a clear and intuitive way to understand the composition of the DNA sequence.
 
-#### 5. User-Friendly Interface:
-The web interface is designed with a clean and simple layout. Users are guided through the steps with section headers and clear instructions. The input and output sections are well-organized, making it easy for users to understand the results.
+5. **User-Friendly Interface:**
+    - The web interface is designed with a clean and simple layout. Users are guided through the steps with section headers and clear instructions. The input and output sections are well-organized, making it easy for users to understand the results.
 
-### Technologies Used:
+#### Technologies Used:
 - **Streamlit:** Used to create the interactive web interface.
 - **Altair:** Employed for generating the bar chart for data visualization.
 - **Pandas:** Utilized for data manipulation and organization.
 - **PIL (Pillow):** Used for displaying the DNA logo image.
 
-### Future Improvements:
+#### Future Improvements:
 - Allow users to upload their DNA sequences as text files.
 - Implement additional statistical analyses or visualizations for more in-depth insights into DNA composition.
 - Enhance the user interface with additional customization options.
 
-### Conclusion:
+#### Conclusion:
 The "DNA Nucleotide Count Web App" serves as a valuable tool for scientists, researchers, and students working with DNA sequences. It provides a quick and efficient way to analyze and visualize the nucleotide composition of DNA, contributing to a better understanding of genetic information.
 """)
+
+st.write("### **Simple Stock Price App**")
+st.write("""
+[Explore the Simple Stock Price App here](https://simple-stock-price-app.onrender.com/)
+
+Welcome to the Simple Stock Price App! This app is designed to provide a straightforward analysis of the historical closing price and volume of Google's stock (GOOGL).
+
+#### Overview:
+The "Simple Stock Price App" is a user-friendly tool that allows users to visualize and analyze the historical data of Google's stock. The app leverages the Yahoo Finance API (yfinance) to fetch historical stock data and presents it in an easy-to-understand format. Developed using the Streamlit framework, this project offers insights into the closing prices and trading volumes over a specified time range.
+
+#### Features and Functionality:
+
+1. **Closing Price Analysis:**
+    - Explore the historical closing prices of Google's stock through an interactive line chart. This visualization helps users identify trends and patterns in the stock's performance.
+
+2. **Volume Analysis:**
+    - Visualize the trading activity by examining the volume of trades over the selected time period. The dedicated line chart provides a clear representation of the stock's trading history.
+
+3. **User-Friendly Interface:**
+    - The app features a clean and intuitive interface, making it easy for users to navigate and interpret the displayed information. Streamlit's simplicity ensures a seamless user experience.
+
+#### Customization:
+The application is configured with a custom page title and favicon, providing a personalized touch to the user interface.
+
+#### Future Enhancements:
+- Incorporate additional technical indicators for a more comprehensive analysis.
+- Implement real-time data updates to provide users with the latest stock information.
+
+#### Conclusion:
+The Simple Stock Price App showcases my skills in data retrieval, data visualization, and web application development. It serves as a practical example of creating a functional and aesthetically pleasing tool for analyzing stock market data.
+
+Feel free to explore and gain valuable insights into the world of stock trading with this app!
+""")
+
 
 #####################
 st.markdown('''
