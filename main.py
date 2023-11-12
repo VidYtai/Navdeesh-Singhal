@@ -153,7 +153,7 @@ st.markdown('''
 st.markdown('''
 ## Projects
 ''')
-st.write("### **[Molecular Solubility Prediction Web App](https://molecular-solubility-prediction-web-app.onrender.com/)**")
+st.write("### **Molecular Solubility Prediction Web App**")
 st.write("""
 [Explore the Molecular Solubility Prediction Web App here](https://molecular-solubility-prediction-web-app.onrender.com/)
 
@@ -196,6 +196,47 @@ Future enhancements may include expanding the model's training data, incorporati
 #### Conclusion:
 
 The Molecular Solubility Prediction Web App combines scientific rigor with user-friendly design, contributing to the advancement of research in molecular solubility prediction. This project showcases your skills in data science, machine learning, and web development, making it a valuable addition to your portfolio.
+""")
+
+st.write("### **DNA Nucleotide Count Web App**")
+st.write("""
+[Explore the DNA Nucleotide Count Web App here](https://dna-nucleotide-count-web-app.onrender.com/)
+
+This app counts the nucleotide composition of query DNA!
+
+### Overview:
+The "DNA Nucleotide Count Web App" is a user-friendly tool designed to analyze the nucleotide composition of a given DNA sequence. The app provides a comprehensive breakdown of the count of each nucleotide (Adenine, Thymine, Guanine, and Cytosine) and visualizes the results using a bar chart. This project is implemented using the Streamlit library for the web interface, Altair for data visualization, and Pandas for data manipulation.
+
+### Features and Functionality:
+
+#### 1. Input DNA Sequence:
+The app allows users to input a DNA sequence using a text area. The user can either use the default DNA sequence provided or replace it with their own. The input is then processed to extract the sequence for analysis.
+
+#### 2. Nucleotide Count:
+The core functionality of the app is to count the occurrences of each nucleotide in the given DNA sequence. The counts are stored in a dictionary and displayed in both tabular and text formats. This information gives users a quick overview of the nucleotide distribution in the input DNA sequence.
+
+#### 3. Display DataFrame:
+The app converts the nucleotide count dictionary into a Pandas DataFrame for a structured presentation. This DataFrame includes two columns: 'nucleotide' and 'count'. Users can easily interpret the nucleotide composition through this tabular format.
+
+#### 4. Visual Representation with Bar Chart:
+To enhance data visualization, the app generates a bar chart using the Altair library. The chart visually represents the count of each nucleotide, providing a clear and intuitive way to understand the composition of the DNA sequence.
+
+#### 5. User-Friendly Interface:
+The web interface is designed with a clean and simple layout. Users are guided through the steps with section headers and clear instructions. The input and output sections are well-organized, making it easy for users to understand the results.
+
+### Technologies Used:
+- **Streamlit:** Used to create the interactive web interface.
+- **Altair:** Employed for generating the bar chart for data visualization.
+- **Pandas:** Utilized for data manipulation and organization.
+- **PIL (Pillow):** Used for displaying the DNA logo image.
+
+### Future Improvements:
+- Allow users to upload their DNA sequences as text files.
+- Implement additional statistical analyses or visualizations for more in-depth insights into DNA composition.
+- Enhance the user interface with additional customization options.
+
+### Conclusion:
+The "DNA Nucleotide Count Web App" serves as a valuable tool for scientists, researchers, and students working with DNA sequences. It provides a quick and efficient way to analyze and visualize the nucleotide composition of DNA, contributing to a better understanding of genetic information.
 """)
 
 #####################
