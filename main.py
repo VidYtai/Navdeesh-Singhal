@@ -13,14 +13,12 @@ st.markdown(
     unsafe_allow_html=True)
 
 st.markdown("""
-<nav>
-<div class="navbar">
+<div class="customnavv">
   <a href="#navdeesh-data-scientist">Home</a>
   <a href="#education">Education</a>
   <a href="#work-experience">Work Experience</a>
   <a href="#skills">Skills</a>
 </div>
-</nav>
 """,
             unsafe_allow_html=True)
 
