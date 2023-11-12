@@ -14,6 +14,7 @@ st.markdown(
     unsafe_allow_html=True)
 
 st.markdown("""
+<nav>
 <div class="topnav" id="myTopnav">
   <a href="#navdeesh-data-scientist" class="active">Home</a>
   <a href="#education">Education</a>
@@ -23,6 +24,7 @@ st.markdown("""
     <i class="fa fa-bars"></i>
   </a>
 </div>
+</nav>
 <script>
 function myFunction() {
   var x = document.getElementById("myTopnav");
