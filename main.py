@@ -17,6 +17,7 @@ st.markdown("""
   <a href="#navdeesh-data-scientist">Home</a>
   <a href="#education">Education</a>
   <a href="#work-experience">Work Experience</a>
+  <a href="#projects">Projects</a>
   <a href="#skills">Skills</a>
 </div>
 """,
