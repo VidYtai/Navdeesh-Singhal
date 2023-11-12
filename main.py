@@ -40,7 +40,7 @@ st.markdown(
 
 st.markdown("""
 <nav class="navbar fixed-top navbar-expand-lg navbar-dark" style="background-color: rgb(22, 162, 203);">
-  <a href="#navdeesh-data-scientist" target="_blank" rel="noopener noreferrer" class="navbar-brand ml-3">Ds. Navdeesh</a>
+  <a href="#navdeesh-data-scientist" rel="noopener noreferrer" class="navbar-brand ml-3">Ds. Navdeesh</a>
   <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
