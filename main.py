@@ -35,62 +35,6 @@ function myFunction() {
   </a>
 </div>
 </nav>
-<style>
-.topnav {
-  overflow: hidden;
-  background-color: rgb(22, 162, 203); /* Blue theme color similar to the navbar */
-}
-
-.topnav a {
-  float: left;
-  display: block;
-  color: #fff; /* Text color for normal state */
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 17px;
-}
-
-.topnav a:hover {
-  background-color: #ddd;
-  color: #000; /* Text color on hover state */
-}
-
-.topnav a.active {
-  background-color: #04AA6D;
-  color: #fff; /* Text color for active state */
-}
-
-.topnav .icon {
-  display: none;
-}
-
-@media screen and (max-width: 600px) {
-  .topnav a:not(:first-child) {
-    display: none;
-  }
-  .topnav a.icon {
-    float: right;
-    display: block;
-  }
-}
-
-@media screen and (max-width: 600px) {
-  .topnav.responsive {
-    position: relative;
-  }
-  .topnav.responsive .icon {
-    position: absolute;
-    right: 0;
-    top: 0;
-  }
-  .topnav.responsive a {
-    float: none;
-    display: block;
-    text-align: left;
-  }
-}
-</style>
 """,
             unsafe_allow_html=True)
 
