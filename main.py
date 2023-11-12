@@ -153,7 +153,7 @@ st.markdown('''
 st.markdown('''
 ## Projects
 ''')
-st.write("### **Molecular Solubility Prediction Web App**")
+st.write("### **1. Molecular Solubility Prediction Web App**")
 st.write("""
 [Explore the Molecular Solubility Prediction Web App here](https://molecular-solubility-prediction-web-app.onrender.com/)
 
@@ -192,7 +192,7 @@ Future enhancements may include expanding the model's training data, incorporati
 The Molecular Solubility Prediction Web App combines scientific rigor with user-friendly design, contributing to the advancement of research in molecular solubility prediction. This project showcases your skills in data science, machine learning, and web development, making it a valuable addition to your portfolio.
 """)
 
-st.write("### **DNA Nucleotide Count Web App**")
+st.write("### **2. DNA Nucleotide Count Web App**")
 st.write("""
 [Explore the DNA Nucleotide Count Web App here](https://dna-nucleotide-count-web-app.onrender.com/)
 
@@ -233,7 +233,7 @@ The "DNA Nucleotide Count Web App" is a user-friendly tool designed to analyze t
 The "DNA Nucleotide Count Web App" serves as a valuable tool for scientists, researchers, and students working with DNA sequences. It provides a quick and efficient way to analyze and visualize the nucleotide composition of DNA, contributing to a better understanding of genetic information.
 """)
 
-st.write("### **Simple Stock Price App**")
+st.write("### **3. Simple Stock Price App**")
 st.write("""
 [Explore the Simple Stock Price App here](https://simple-stock-price-app.onrender.com/)
 
