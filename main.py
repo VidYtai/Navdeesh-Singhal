@@ -14,6 +14,16 @@ st.markdown(
     unsafe_allow_html=True)
 
 st.markdown("""
+<script>
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+</script>
 <nav>
 <div class="topnav" id="myTopnav">
   <a href="#navdeesh-data-scientist" class="active">Home</a>
@@ -25,16 +35,6 @@ st.markdown("""
   </a>
 </div>
 </nav>
-<script>
-function myFunction() {
-  var x = document.getElementById("myTopnav");
-  if (x.className === "topnav") {
-    x.className += " responsive";
-  } else {
-    x.className = "topnav";
-  }
-}
-</script>
 <style>
 .topnav {
   overflow: hidden;
