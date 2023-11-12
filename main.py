@@ -150,6 +150,11 @@ st.markdown('''
 
 #####################
 st.markdown('''
+## Projects
+''')
+
+#####################
+st.markdown('''
 ## Skills
 ''')
 txt3('Programming', '`Python`, `R`, `Linux`')
