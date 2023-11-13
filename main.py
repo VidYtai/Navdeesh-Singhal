@@ -153,12 +153,12 @@ st.markdown('''
 st.markdown('''
 ## Projects
 ''')
-def create_project_section(image_path, title, description):
+def create_project_section(image_path, title, description, file_url):
     col1, col2 = st.columns(2)
 
     # Column 1: Image
     with col1:
-        st.image(image_path, caption='', use_column_width=True)
+        [st.image(image_path, caption='', use_column_width=True)](/projects/molecular-solubility-prediction-web-app.py)
 
     # Column 2: Title and Description
     with col2:
@@ -168,7 +168,7 @@ def create_project_section(image_path, title, description):
 # Project 1: Molecular Solubility Prediction Web App
 create_project_section("https://raw.githubusercontent.com/VidYtai/Projects/main/app_10_regression_bioinformatics_solubility/solubility-logo.jpg", "Molecular Solubility Prediction Web App", """
 The Molecular Solubility Prediction Web App is a data-driven application designed to predict the solubility values (LogS) of molecules...
-[Explore the Web App here](https://molecular-solubility-prediction-web-app.onrender.com/)
+[Explore the Web App here](https://molecular-solubility-prediction-web-app.onrender.com/, "molecular-solubility-prediction-web-app.py")
 """)
 
 # Project 2: DNA Nucleotide Count Web App
