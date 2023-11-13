@@ -19,6 +19,7 @@ st.markdown("""
   <a href="#work-experience">Work Experience</a>
   <a href="#projects">Projects</a>
   <a href="#skills">Skills</a>
+  <a href="#contact-form">Contact</a>
 </div>
 """,
             unsafe_allow_html=True)
