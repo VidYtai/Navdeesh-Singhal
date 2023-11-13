@@ -153,6 +153,35 @@ st.markdown('''
 st.markdown('''
 ## Projects
 ''')
+def create_project_section(image_path, title, description):
+    col1, col2 = st.beta_columns(2)
+
+    # Column 1: Image
+    with col1:
+        st.image(image_path, caption='', use_column_width=True)
+
+    # Column 2: Title and Description
+    with col2:
+        st.write(f"# {title}")
+        st.write(description)
+
+# Project 1: Molecular Solubility Prediction Web App
+create_project_section("https://raw.githubusercontent.com/VidYtai/Projects/main/app_10_regression_bioinformatics_solubility/solubility-logo.jpg", "Molecular Solubility Prediction Web App", """
+The Molecular Solubility Prediction Web App is a data-driven application designed to predict the solubility values (LogS) of molecules...
+[Explore the Web App here](https://molecular-solubility-prediction-web-app.onrender.com/)
+""")
+
+# Project 2: DNA Nucleotide Count Web App
+create_project_section("https://raw.githubusercontent.com/VidYtai/Projects/main/app_2_simple_bioinformatics_dna/dna-logo.jpg", "DNA Nucleotide Count Web App", """
+The "DNA Nucleotide Count Web App" is a user-friendly tool designed to analyze the nucleotide composition of a given DNA sequence...
+[Explore the Web App here](https://dna-nucleotide-count-web-app.onrender.com/)
+""")
+
+# Project 3: Simple Stock Price App
+create_project_section("https://www.quoteinspector.com/media/investing/stock-tracking-screen-wo.jpg", "Simple Stock Price App", """
+Welcome to the Simple Stock Price App! This app is designed to provide a straightforward analysis of the historical closing price...
+[Explore the Web App here](https://simple-stock-price-app.onrender.com/)
+""")
 st.write("### **1. Molecular Solubility Prediction Web App**")
 st.write("""
 [Explore the Molecular Solubility Prediction Web App here](https://molecular-solubility-prediction-web-app.onrender.com/)
