@@ -1,31 +1,4 @@
-from PIL import Image
-import streamlit as st
-
-st.set_page_config(
-    page_title="Ds. Navdeesh",
-    page_icon="dp.png"  # You can replace this with the path to your favicon file
-)
-
-st.markdown(
-    '''<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">''',
-    unsafe_allow_html=True)
-
-st.markdown("""
-<div class="customnavv">
-  <a href="#navdeesh-data-scientist">Home</a>
-  <a href="#education">Education</a>
-  <a href="#work-experience">Work Experience</a>
-  <a href="#projects">Projects</a>
-  <a href="#skills">Skills</a>
-</div>
-""",
-            unsafe_allow_html=True)
-
-with open("style.css") as f:
-  st.markdown('<style>{}</style>'.format(f.read()), unsafe_allow_html=True)
-
-st.write("# **Molecular Solubility Prediction Web App**")
-st.write("""
+# **Molecular Solubility Prediction Web App**
 [Explore the Molecular Solubility Prediction Web App here](https://molecular-solubility-prediction-web-app.onrender.com/)
 
 ## Project Overview:
@@ -61,4 +34,3 @@ Future enhancements may include expanding the model's training data, incorporati
 
 ## Conclusion:
 The Molecular Solubility Prediction Web App combines scientific rigor with user-friendly design, contributing to the advancement of research in molecular solubility prediction. This project showcases your skills in data science, machine learning, and web development, making it a valuable addition to your portfolio.
-""")
