@@ -153,44 +153,50 @@ st.markdown('''
 st.markdown('''
 ## Projects
 ''')
-def create_project_section(image_path, title, description, app_url, file_url):
-    col1, col2 = st.columns(2)
+projects = {
+    "Molecular Solubility Prediction Web App": {
+        "image_path": "https://raw.githubusercontent.com/VidYtai/Projects/main/app_10_regression_bioinformatics_solubility/solubility-logo.jpg",
+        "description": """
+[Explore the Molecular Solubility Prediction Web App here](https://molecular-solubility-prediction-web-app.onrender.com/)
 
-    # Column 1: Image
-    with col1:
-        st.image(image_path, caption='', use_column_width=True)
+#### Project Overview:
+The Molecular Solubility Prediction Web App is a data-driven application designed to predict the solubility values (LogS) of molecules. This web-based tool leverages molecular descriptors calculated from chemical structures to provide insightful predictions, making it a valuable resource for researchers and professionals in the field.
 
-    # Column 2: Title and Description
-    with col2:
-        st.write(f"# [{title}]({file_url})")
-        st.write(description)
-        st.write(f"[Explore the Web App here]({app_url})")
+#### Features:
+1. **Molecular Descriptors Calculation:**
+   - The app utilizes the RDKit library to calculate essential molecular descriptors, including Molecular LogP, Molecular Weight, Number of Rotatable Bonds, and Aromatic Proportion.
 
-# Project 1: Molecular Solubility Prediction Web App
-create_project_section(
-    "https://raw.githubusercontent.com/VidYtai/Projects/main/app_10_regression_bioinformatics_solubility/solubility-logo.jpg",
-    "Molecular Solubility Prediction Web App",
-    """
-    The Molecular Solubility Prediction Web App is a data-driven application designed to predict the solubility values (LogS) of molecules...
-    """,
-    "https://molecular-solubility-prediction-web-app.onrender.com",
-    "molecular-solubility-prediction-web-app.md"
-)
+2. **User-Friendly Interface:**
+   - The intuitive interface allows users to input molecular structures using Simplified Molecular Input Line Entry System (SMILES) notation.
 
-# Project 2: DNA Nucleotide Count Web App
-create_project_section("https://raw.githubusercontent.com/VidYtai/Projects/main/app_2_simple_bioinformatics_dna/dna-logo.jpg", "DNA Nucleotide Count Web App", """
-The "DNA Nucleotide Count Web App" is a user-friendly tool designed to analyze the nucleotide composition of a given DNA sequence...
-[Explore the Web App here](https://dna-nucleotide-count-web-app.onrender.com/)
-""")
+3. **Predictive Analytics:**
+   - A pre-built machine learning model, trained on data from John S. Delaney's work, is incorporated into the app. This model predicts LogS values based on the provided molecular descriptors.
 
-# Project 3: Simple Stock Price App
-create_project_section("https://www.quoteinspector.com/media/investing/stock-tracking-screen-wo.jpg", "Simple Stock Price App", """
-Welcome to the Simple Stock Price App! This app is designed to provide a straightforward analysis of the historical closing price...
-[Explore the Web App here](https://simple-stock-price-app.onrender.com/)
-""")
+4. **Results Display:**
+   - The app displays predicted LogS values for the input molecules, providing users with valuable insights into the solubility characteristics of the compounds.
 
-st.write("### **2. DNA Nucleotide Count Web App**")
-st.write("""
+5. **Customization:**
+   - Users can easily customize input molecules, allowing for flexibility in exploring the solubility predictions for different chemical structures.
+
+#### Data Source:
+The molecular solubility prediction model is trained on data from the research article "ESOL: Estimating Aqueous Solubility Directly from Molecular Structure" by John S. Delaney, published in the Journal of Chemical Information and Computer Sciences in 2004.
+
+[Link to the Article](https://pubs.acs.org/doi/10.1021/ci034243x)
+
+#### Technologies Used:
+- **Python:** The backend of the application is developed using Python.
+- **Streamlit:** The user interface is created using the Streamlit library, making it easy to deploy and share.
+
+#### Future Enhancements:
+Future enhancements may include expanding the model's training data, incorporating more advanced machine learning techniques, and improving the user interface for a seamless experience.
+
+#### Conclusion:
+The Molecular Solubility Prediction Web App combines scientific rigor with user-friendly design, contributing to the advancement of research in molecular solubility prediction. This project showcases your skills in data science, machine learning, and web development, making it a valuable addition to your portfolio.
+""",
+    },
+    "DNA Nucleotide Count Web App": {
+        "image_path": "https://raw.githubusercontent.com/VidYtai/Projects/main/app_2_simple_bioinformatics_dna/dna-logo.jpg",
+        "description": """
 [Explore the DNA Nucleotide Count Web App here](https://dna-nucleotide-count-web-app.onrender.com/)
 
 This app counts the nucleotide composition of query DNA!
@@ -228,10 +234,11 @@ The "DNA Nucleotide Count Web App" is a user-friendly tool designed to analyze t
 
 #### Conclusion:
 The "DNA Nucleotide Count Web App" serves as a valuable tool for scientists, researchers, and students working with DNA sequences. It provides a quick and efficient way to analyze and visualize the nucleotide composition of DNA, contributing to a better understanding of genetic information.
-""")
-
-st.write("### **3. Simple Stock Price App**")
-st.write("""
+"""
+    },
+    "Simple Stock Price App": {
+        "image_path": "https://www.quoteinspector.com/media/investing/stock-tracking-screen-wo.jpg",
+        "description": """
 [Explore the Simple Stock Price App here](https://simple-stock-price-app.onrender.com/)
 
 Welcome to the Simple Stock Price App! This app is designed to provide a straightforward analysis of the historical closing price and volume of Google's stock (GOOGL).
@@ -261,7 +268,23 @@ The application is configured with a custom page title and favicon, providing a 
 The Simple Stock Price App showcases my skills in data retrieval, data visualization, and web application development. It serves as a practical example of creating a functional and aesthetically pleasing tool for analyzing stock market data.
 
 Feel free to explore and gain valuable insights into the world of stock trading with this app!
-""")
+""",
+    }
+}
+
+# Dropdown for selecting a project
+selected_project = st.selectbox("Select a Project", list(projects.keys()))
+
+# Display selected project details
+st.image(projects[selected_project]["image_path"], caption='', use_column_width=True)
+st.write(f"# {selected_project}")
+st.write(projects[selected_project]["description"])
+
+st.write("### **2. DNA Nucleotide Count Web App**")
+st.write()
+
+st.write("### **3. Simple Stock Price App**")
+st.write()
 
 
 #####################
