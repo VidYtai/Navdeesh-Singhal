@@ -162,7 +162,7 @@ def create_project_section(image_path, title, description, app_url, file_url):
 
     # Column 2: Title and Description
     with col2:
-        st.write(f"# [{title}](/projects/{file_url})")
+        st.write(f"# [{title}]({file_url})")
         st.write(description)
         st.write(f"[Explore the Web App here]({app_url})")
 
