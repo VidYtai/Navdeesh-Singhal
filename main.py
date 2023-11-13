@@ -280,12 +280,6 @@ st.image(projects[selected_project]["image_path"], caption='', use_column_width=
 st.write(f"# {selected_project}")
 st.write(projects[selected_project]["description"])
 
-st.write("### **2. DNA Nucleotide Count Web App**")
-st.write()
-
-st.write("### **3. Simple Stock Price App**")
-st.write()
-
 
 #####################
 st.markdown('''
