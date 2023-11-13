@@ -174,7 +174,7 @@ create_project_section(
     The Molecular Solubility Prediction Web App is a data-driven application designed to predict the solubility values (LogS) of molecules...
     """,
     "https://molecular-solubility-prediction-web-app.onrender.com",
-    "molecular-solubility-prediction-web-app.py"
+    "molecular-solubility-prediction-web-app.md"
 )
 
 # Project 2: DNA Nucleotide Count Web App
