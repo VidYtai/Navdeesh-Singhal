@@ -196,7 +196,7 @@ The Molecular Solubility Prediction Web App combines scientific rigor with user-
 """,
     },
     "DNA Nucleotide Count Web App": {
-        "image_path": "https://raw.githubusercontent.com/VidYtai/Projects/main/app_2_simple_bioinformatics_dna/dna-logo.jpg",
+        "image_path": "https://raw.githubusercontent.com/VidYtai/Projects/main/app_2_simple_bioinformatics_dna/dna.jpg",
         "description": """
 [Explore the DNA Nucleotide Count Web App here](https://dna-nucleotide-count-web-app.onrender.com/)
 
