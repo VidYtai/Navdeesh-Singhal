@@ -154,7 +154,7 @@ st.markdown('''
 ## Projects
 ''')
 def create_project_section(image_path, title, description):
-    col1, col2 = st.beta_columns(2)
+    col1, col2 = st.columns(2)
 
     # Column 1: Image
     with col1:
