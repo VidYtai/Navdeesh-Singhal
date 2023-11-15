@@ -237,7 +237,7 @@ The "DNA Nucleotide Count Web App" is a user-friendly tool designed to analyze t
 The "DNA Nucleotide Count Web App" serves as a valuable tool for scientists, researchers, and students working with DNA sequences. It provides a quick and efficient way to analyze and visualize the nucleotide composition of DNA, contributing to a better understanding of genetic information.
 """
     },
-    "Simple Stock Price App": {
+    "Simple Stock Price Web App": {
         "image_path": "https://www.quoteinspector.com/media/investing/stock-tracking-screen-wo.jpg",
         "description": """
 [Explore the Simple Stock Price App here](https://simple-stock-price-app.onrender.com/)
