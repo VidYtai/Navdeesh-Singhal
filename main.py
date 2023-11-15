@@ -270,7 +270,54 @@ The Simple Stock Price App showcases my skills in data retrieval, data visualiza
 
 Feel free to explore and gain valuable insights into the world of stock trading with this app!
 """,
-    }
+    },
+    "NBA Player Stats Explorer Web App": {
+        "image_path": "https://th.bing.com/th/id/R.764285e1af142963840092657c0ab289?rik=lfhmsH3FhkRktg&riu=http%3a%2f%2fhdqwalls.com%2fwallpapers%2fbasketball-hd.jpg&ehk=RI4sZJfaGa6Q%2bI%2by86Gh5DeT4bdblu6jpQyyM5TvPRM%3d&risl=&pid=ImgRaw&r=0",
+        "description": """
+[Explore the NBA Player Stats Explorer here](https://nba-player-stats-explorer.onrender.com/)
+
+#### Project Overview:
+The NBA Player Stats Explorer is a dynamic web application that provides users with a comprehensive view of NBA player statistics. By leveraging web scraping techniques on [Basketball-reference.com](https://www.basketball-reference.com/), this app delivers real-time insights into player performance, making it a valuable resource for basketball enthusiasts, analysts, and researchers.
+
+#### Features:
+1. **Dynamic Data Selection:**
+   - Users can customize their exploration by selecting the desired year, team(s), and player position(s) through an interactive sidebar.
+
+2. **Data Display:**
+   - The selected player statistics are neatly presented in a tabular format, allowing users to analyze and compare player performance efficiently.
+
+3. **CSV Data Download:**
+   - The app offers the convenience of downloading the displayed player statistics in CSV format, facilitating further analysis and external usage.
+
+4. **Intercorrelation Heatmap:**
+   - With a click of a button, users can generate an intercorrelation matrix heatmap, visually highlighting relationships between different statistical variables.
+
+#### How to Use:
+1. **Select Year:**
+   - Choose the desired year from the sidebar to explore player statistics from specific NBA seasons.
+
+2. **Team and Position Filters:**
+   - Narrow down the displayed data by selecting one or more teams and player positions from the sidebar.
+
+3. **Player Statistics Display:**
+   - The selected player statistics are presented in a clear and structured table, offering insights into player performance.
+
+4. **CSV Download:**
+   - Users can download the displayed player statistics in CSV format by clicking the "Download CSV File" link.
+
+5. **Intercorrelation Heatmap:**
+   - Click the "Intercorrelation Heatmap" button to visualize the intercorrelation matrix heatmap and identify patterns in the data.
+
+#### Additional Information:
+- The project's visual appeal is enhanced by incorporating a favicon depicting a basketball, providing a thematic touch to the web application.
+- The application's code is designed efficiently, utilizing Streamlit for the web interface, Pandas for data manipulation, and Matplotlib/Seaborn for data visualization.
+
+#### Technologies Used:
+- **Python Libraries:** Streamlit, Pandas, Base64, Matplotlib, Seaborn, NumPy
+
+#### Conclusion:
+The NBA Player Stats Explorer combines a user-friendly interface with real-time data, catering to basketball enthusiasts and data analysts alike. This project showcases your skills in web development, data manipulation, and visualization, making it a valuable asset in your portfolio.
+"""
 }
 
 # Dropdown for selecting a project
