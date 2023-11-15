@@ -317,7 +317,8 @@ The NBA Player Stats Explorer is a dynamic web application that provides users w
 
 #### Conclusion:
 The NBA Player Stats Explorer combines a user-friendly interface with real-time data, catering to basketball enthusiasts and data analysts alike. This project showcases your skills in web development, data manipulation, and visualization, making it a valuable asset in your portfolio.
-"""
+""",
+    }
 }
 
 # Dropdown for selecting a project
