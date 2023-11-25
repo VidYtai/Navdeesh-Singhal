@@ -10,8 +10,7 @@ st.set_page_config(
 
 st.markdown(
     '''<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3150291707916239"
-     crossorigin="anonymous"></script>''',
+<meta name="google-adsense-account" content="ca-pub-3150291707916239">''',
     unsafe_allow_html=True)
 
 st.markdown("""
