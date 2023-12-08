@@ -20,6 +20,7 @@ st.markdown("""
   <a href="#work-experience">Work Experience</a>
   <a href="#projects">Projects</a>
   <a href="#skills">Skills</a>
+  <a href="#certifications">Certifications</a>
   <a href="#contact-form">Contact</a>
 </div>
 """,
@@ -349,7 +350,7 @@ txt3('Model deployment',
 
 #####################
 st.markdown('''
-## Certificates
+## Certifications
 ''')
 
 st.markdown("""
