@@ -353,7 +353,7 @@ st.markdown('''
 ## Certifications
 ''')
 
-st.image('https://raw.githubusercontent.com/VidYtai/Navdeesh-Singhal/main/Meme-o-Mania.jpeg', caption='', use_column_width=True)
+st.image('https://raw.githubusercontent.com/VidYtai/Navdeesh-Singhal/main/Meme-o-Mania.jpeg', caption='Awarded Third Prize at "Meme-o-Mania," an event organized by Virus. Successfully crafted three captivating memes within a challenging six-hour timeframe, earning not only this certificate but also a trophy for outstanding creativity.', use_column_width=True)
 
 
 def save_to_markdown(data, markdown_file):
