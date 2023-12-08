@@ -353,9 +353,7 @@ st.markdown('''
 ## Certifications
 ''')
 
-st.markdown("""
-    <center><img src="https://raw.githubusercontent.com/VidYtai/Navdeesh-Singhal/main/Meme-o-Mania.jpeg" class="img-fluid"></center>
-""", unsafe_allow_html=True)
+st.image('https://raw.githubusercontent.com/VidYtai/Navdeesh-Singhal/main/Meme-o-Mania.jpeg', caption='', use_column_width=True)
 
 
 def save_to_markdown(data, markdown_file):
