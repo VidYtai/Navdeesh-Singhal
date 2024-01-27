@@ -355,37 +355,3 @@ st.markdown('''
 
 st.image('https://raw.githubusercontent.com/VidYtai/Navdeesh-Singhal/main/Meme-o-Mania.jpeg', caption='Awarded Third Prize at "Meme-o-Mania," an event organized by Virus. Successfully crafted three captivating memes within a challenging six-hour timeframe, earning not only this certificate but also a trophy for outstanding creativity.', use_column_width=True)
 st.image('https://raw.githubusercontent.com/VidYtai/Navdeesh-Singhal/main/Exun-MX%2BC.jpeg', caption='Awarded Third Prize at "Robokhnights :MX+C Line Follower Robot," an event organized by Exunclan. Successfully crafted a line follower robot within a challenging 2 days timeframe, earning not only this certificate but also a trophy for outstanding creativity.', use_column_width=True)
-
-
-def save_to_markdown(data, markdown_file):
-  with open(markdown_file, 'w') as file:
-    file.write(data.to_markdown(index=False))
-
-
-st.markdown('''
-## Contact Form
-''')
-
-name = st.text_input("Name")
-email = st.text_input("Email")
-message = st.text_area("Message")
-submitted = st.button("Submit")
-
-if submitted:
-    # Create a DataFrame with the form data
-    data = {"Name": name, "Email": email, "Message": message}
-    df = pd.DataFrame([data])  # Convert a single dictionary to a DataFrame with a list
-
-
-    # Send POST request to a server
-    api_url = "https://contact-1.navdeeshsingha2.repl.co/api/contact"
-    headers = {"Content-Type": "application/json"}
-    payload = df.to_json(orient="records")
-
-    response = requests.post(api_url, data=payload, headers=headers)
-
-    if response.status_code == 200:
-        st.success("Form sent successfully.")
-    else:
-        st.error(f"Failed to send data. Status code: {response.status_code}")
-        st.error(f"Error message from server: {response.json().get('error')}")
