@@ -360,7 +360,5 @@ st.image('https://raw.githubusercontent.com/VidYtai/Navdeesh-Singhal/main/Exun-M
 st.markdown('''
 ## Contact
 ''')
-st.write("### Email:")
-st.write("navdeeshsinghal1@gmail.com")
-st.write("### Phone Number:")
-st.write("+91 8178591232")
+st.write("Email : navdeeshsinghal1@gmail.com")
+st.write("Phone : +91 8178591232")
